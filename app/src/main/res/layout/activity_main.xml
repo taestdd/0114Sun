@@ -25,7 +25,7 @@
         android:id="@+id/sandMessageBtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="전송"
+        android:text="전송"/>
 
 
 
