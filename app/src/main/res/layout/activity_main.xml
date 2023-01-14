@@ -27,6 +27,24 @@
         android:layout_height="wrap_content"
         android:text="전송"/>
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="phonenum"
+        android:inputType="phone"/>
+
+    <EditText
+        android:id="@+id/userPhoneNum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Input your phone number"
+
+    <Button
+        android:id="@+id/dialBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="전화연결 (dal)"/>
+
 
 
 
