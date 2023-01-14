@@ -6,12 +6,12 @@ plugins {
 
 android {
     namespace 'com.opensurvey.a0114sun'
-    compileSdk 32
+    compileSdk 33
 
     defaultConfig {
         applicationId "com.opensurvey.a0114sun"
         minSdk 16
-        targetSdk 32
+        targetSdk 33
         versionCode 1
         versionName "1.0"
 

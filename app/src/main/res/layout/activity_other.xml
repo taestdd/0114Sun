@@ -15,9 +15,10 @@
         android:text="다른 화면이당"/>
 
     <Button
+        android:id="@+id/returnBtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="return"
+        android:text="return"/>
 
 
 
