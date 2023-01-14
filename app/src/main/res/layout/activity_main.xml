@@ -34,10 +34,10 @@
         android:inputType="phone"/>
 
     <EditText
-        android:id="@+id/userPhoneNum"
+        android:id="@+id/userPhoneNumEdt"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Input your phone number"
+        android:hint="Input your phone number"/>
 
     <Button
         android:id="@+id/dialBtn"

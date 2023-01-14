@@ -1,6 +1,7 @@
 package com.opensurvey.a0114sun
 
 import android.content.Intent
+import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import kotlinx.android.synthetic.main.activity_main.*
@@ -27,6 +28,15 @@ class MainActivity : AppCompatActivity() {
             startActivity(sandIntent)
 
         }
+
+        dialBtn.setOnClickListener{
+
+            val userPhoneNum = userPhoneNumEdt.text.toString()
+            val phoneNumUri = Uri.parse("tel:${userPhoneNum}")
+            val phoneNumIntent = Intent(Intent.ACTION_DIAL,phoneNumUri)
+            startActivity(phoneNumIntent)
+        }
+
 
     }
 }
